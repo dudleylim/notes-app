@@ -52,7 +52,7 @@ const NotesItem = () => {
             },
             body: JSON.stringify({...note})
         })
-        navigate("/");
+        setTimeout(() => {navigate("/")}, 1);
     }
 
     const handleSubmit = () => {
@@ -64,7 +64,7 @@ const NotesItem = () => {
         } else if (noteId !== 'new' && note.body !== undefined) {
             updateNote();
         }
-        navigate("/");
+        setTimeout(() => {navigate("/")}, 1);
     }
 
     return (

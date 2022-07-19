@@ -15,7 +15,6 @@ const NotesList = () => {
                 <AiOutlinePlusCircle size ='2rem' />
                 </Link>
             </div>
-            
         )
     }
 
